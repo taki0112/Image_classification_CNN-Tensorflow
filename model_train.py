@@ -3,9 +3,9 @@ import os
 import preprocessing
 from model import CNN_Model
 
-# preprocessing.make_folder() # Create a folder to save the resized image
-# preprocessing.resize() # Resize image to 64 by 64 and change it to grayscale
-# preprocessing.make_csv() # Create labeled image csv
+preprocessing.make_folder() # Create a folder to save the resized image
+preprocessing.resize() # Resize image to 64 by 64 and change it to grayscale
+preprocessing.make_csv() # Create labeled image csv
 
 # hyper parameter
 IMAGE_WIDTH = 64

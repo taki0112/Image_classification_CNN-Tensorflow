@@ -77,8 +77,6 @@ class CNN_Model:
         tf.summary.scalar("accuracy", self.accuracy)
         self.summary = tf.summary.merge_all()
 
-    def test(self, x_test, training=False):
-        return self.sess.run(self.logits, feed_dict={self.X: x_test, self.training: training})
 
     def train(self, x_data, y_data, training=True):
         return self.sess.run([self.cost, self.summary, self.optimizer],

@@ -36,6 +36,6 @@ def make_csv() :
 
 
 
-# resize()
+resize()
 
 make_csv()
